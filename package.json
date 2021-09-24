@@ -1,0 +1,15 @@
+{
+  "name": "loancalc",
+  "version": "1.0.0",
+  "description": "calculator to find how much to pay for a certain time period when you take out a loan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.15.0",
+    "typescript": "^4.4.3"
+  }
+}
