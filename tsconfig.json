@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "noImplicitAny": false,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "dist",
+      "declaration": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "alwaysStrict": true,
+      "strictNullChecks" : true,
+      "experimentalDecorators" : true,
+      "emitDecoratorMetadata" : true,
+      "importHelpers": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["src/**/*.spec.ts", "node_modules"],
+  }
