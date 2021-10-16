@@ -16,7 +16,8 @@
       "strictNullChecks" : true,
       "experimentalDecorators" : true,
       "emitDecoratorMetadata" : true,
-      "importHelpers": true
+      "importHelpers": true,
+      "lib": [ "ES2015", "DOM" ]
     },
     "include": ["src/**/*.ts"],
     "exclude": ["src/**/*.spec.ts", "node_modules"],
